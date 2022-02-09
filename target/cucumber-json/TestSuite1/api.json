@@ -1,0 +1,145 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-09T04:07:58.428Z",
+        "line": 5,
+        "name": "AC1. “I want to get the current weather data for a specific location based on lat and long”.",
+        "description": "",
+        "id": "get-weather-details;ac1.-“i-want-to-get-the-current-weather-data-for-a-specific-location-based-on-lat-and-long”.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5340000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to get the current weather data for a specific location based on 33.8688 and 151.2093 with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "33.8688",
+                  "offset": 72
+                },
+                {
+                  "val": "151.2093",
+                  "offset": 84
+                },
+                {
+                  "val": "200",
+                  "offset": 110
+                }
+              ],
+              "location": "stepDefinition.WeatherAPISteps.get_current_weather_based_on_lat_and_long(java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@alltestcase"
+          },
+          {
+            "name": "@testcase1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T04:08:03.904Z",
+        "line": 10,
+        "name": "AC2. “I want to get the current weather data for multiple cities in the world”.",
+        "description": "",
+        "id": "get-weather-details;ac2.-“i-want-to-get-the-current-weather-data-for-multiple-cities-in-the-world”.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39651000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to get the current weather data for multiple cities in the world with status code 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 89
+                }
+              ],
+              "location": "stepDefinition.WeatherAPISteps.get_current_weather_data_for_multiple_cities(int)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@alltestcase"
+          },
+          {
+            "name": "@testcase2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-09T04:08:43.564Z",
+        "line": 14,
+        "name": "AC3. “I want to get the current air quality data for a particular postcode”.",
+        "description": "",
+        "id": "get-weather-details;ac3.-“i-want-to-get-the-current-air-quality-data-for-a-particular-postcode”.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1772000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to get the current air quality data for postcode \u003d 3999 with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3999",
+                  "offset": 58
+                },
+                {
+                  "val": "200",
+                  "offset": 80
+                }
+              ],
+              "location": "stepDefinition.WeatherAPISteps.get_current_air_quality_for_a_particular_postcode(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@alltestcase"
+          },
+          {
+            "name": "@testcase3"
+          }
+        ]
+      }
+    ],
+    "name": "Get weather details",
+    "description": "",
+    "id": "get-weather-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/weatherbit.feature",
+    "tags": [
+      {
+        "name": "@alltestcase",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
