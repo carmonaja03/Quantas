@@ -1,4 +1,4 @@
-# Qantas
+# WeatherAPIAutomation
 Pre-requisites
 1. IDE recommended is IntelliJ
 
