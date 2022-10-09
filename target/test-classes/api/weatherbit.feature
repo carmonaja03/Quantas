@@ -5,7 +5,6 @@ Feature: Get weather details
 Scenario: AC1. “I want to get the current weather data for a specific location based on lat and long”.
   Given I want to get the current weather data for a specific location based on 33.8688 and 151.2093 with status code 200
 
-
 @testcase2
   Scenario: AC2. “I want to get the current weather data for multiple cities in the world”.
     Given I want to get the current weather data for multiple cities in the world with status code 403
